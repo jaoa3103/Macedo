@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim",
-                afirmacao: "afirmação"
+                afirmacao: "pessoa esportiva"
             },
             {
                 texto: "Não" ,
-                afirmacao: "afirmação" 
+                afirmacao: "pessoa não esportiva" 
             }
 
         ]
@@ -24,11 +24,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Acho legal e divertido",
-                afirmacao: "afirmação"
+                afirmacao: "Gosta"
             },
             {
                 texto:"Acho chato e sem graça",
-                afirmacao: "afirmação"
+                afirmacao: "Não gosta"
             }
         ]
     },
@@ -37,25 +37,26 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, pratico algum esporte",
-                afirmacao: "afirmação"
+                afirmacao: "Não sedentaria"
             },
             {
                 texto: "Não, não pratico esporte nenhum",
-                afirmacao: "afirmação"
+                afirmacao: "sedentaria"
             }
         ]
     },
-    {
-        pergunta: "Qual modalidade você prefere?",
+        {
+        enunciado: "Qual modalidade você prefere?",
         alternativas: [
             {
                 texto: "Ginástica",
-                afirmacao: "afirmação"
+                afirmacao: "ginasta"
             },
             {
                 texto: "Esportes de invasão(futebol, basquete, etc...)",
-                afirmacao: "afirmação"
+                afirmacao: "Jogador"
             }
+
 
         ]
     },
@@ -64,11 +65,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, o esporte pode me ajudar a ter uma vida melhor me proporcionando varios beneficios",
-                afirmacao: "afirmação"
+                afirmacao: "Saudavel"
             },
             {
                 texto: "Não, não acho que o esporte pode me ajudar a ter uma vida melhor",
-                afirmacao: "afirmação"
+                afirmacao: "Pode não ser saudavel"
             }
 
 
@@ -79,11 +80,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, pois pode ajudar muito na vida cotidiana",
-                afirmacao: "afirmação"
+                afirmacao: "Se preocupa com os outros"
             },
             {
                 texto:"Não, ela faz se ela quiser!",
-                afirmacao: "afirmação"
+                afirmacao: "Eles por eles"
             }
         ]
     },
